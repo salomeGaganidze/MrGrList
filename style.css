@@ -1,0 +1,108 @@
+#first-box 
+{ 
+    position: absolute;
+    top: 15%;
+    bottom: 15%;
+    left: 15%;
+    right: 15%;
+    background: linear-gradient(124.01deg, #8b6868 0%, rgba(43, 53, 83, 0) 100%);
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+#title 
+{
+
+    font-family: "Courier New", monospace;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 116%;    
+    color: #000000;
+
+
+}
+
+
+#todoinput , #bttn
+{
+    height: 30px;
+    width: auto;
+    border-radius: 15px;
+}
+
+
+
+#total
+{
+    position: absolute;
+    font-family: "Courier New", monospace;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 116%;    
+    color: #000000;
+    bottom: 2%;
+    left : 42%;
+
+}
+
+
+#cont-list {
+  
+   
+    list-style: none;
+    position: relative;
+    top: 15%;
+    bottom: 15%;
+    left: 30%;
+    right: 15%;
+    width: auto;
+   
+     
+}
+
+li {
+    
+    border-radius: .3em;
+    width: 35%;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+
+.del-btn{
+
+    float: right;
+    border: none;
+    cursor: pointer; 
+    background-color: lightcoral;
+    /* background-color: red;
+    color: aliceblue;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 10px;
+    margin: 4px 2px;
+
+    text-decoration: none;
+    cursor: pointer; */
+  
+}
+
+.done-btn{
+
+    float: right;
+    border: none;
+    cursor: pointer; 
+    background-color: rgb(134, 184, 146);
+    color: aliceblue;
+    margin-right: 5px;
+
+    
+}
+
+
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
