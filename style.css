@@ -53,12 +53,13 @@
   
    
     list-style: none;
-    position: relative;
+    position: flex;
     top: 15%;
     bottom: 15%;
-    left: 30%;
+    left: 15%;
     right: 15%;
     width: auto;
+    overflow: hidden;
    
      
 }
@@ -66,7 +67,7 @@
 li {
     
     border-radius: .3em;
-    width: 35%;
+    width: 45%;
     text-align: left;
     padding-bottom: 5px;
 }
@@ -78,15 +79,7 @@ li {
     border: none;
     cursor: pointer; 
     background-color: lightcoral;
-    /* background-color: red;
-    color: aliceblue;
-    padding: 8px 8px;
-    text-align: center;
-    font-size: 10px;
-    margin: 4px 2px;
-
-    text-decoration: none;
-    cursor: pointer; */
+    float: right;
   
 }
 
@@ -96,7 +89,7 @@ li {
     border: none;
     cursor: pointer; 
     background-color: rgb(134, 184, 146);
-    color: rgb(13, 48, 79);
+    color: aliceblue;
     margin-right: 5px;
 
     
@@ -105,4 +98,20 @@ li {
 
 body {
     overflow: hidden; /* Hide scrollbars */
+  }
+
+
+  #buttondiv {
+ position: relative;
+ margin-left: 10px;
+ width: auto;
+ float: right;
+  }
+
+  #listdiv 
+  {
+    position: relative;
+    left: 25%;
+     width: auto;
+
   }

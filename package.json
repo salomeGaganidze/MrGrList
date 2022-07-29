@@ -1,0 +1,27 @@
+{
+  "name": "mygrocery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salomeGaganidze/MrGrList.git"
+  },
+  "keywords": [
+    "soko"
+  ],
+  "author": "salome gaganidze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salomeGaganidze/MrGrList/issues"
+  },
+  "homepage": "https://github.com/salomeGaganidze/MrGrList#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

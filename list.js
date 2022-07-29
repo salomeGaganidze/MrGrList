@@ -30,7 +30,6 @@ function doneBtn(e)
 {  
 
     let parentId = document.getElementById(e.target.id).parentNode;
-
     let myEl= document.getElementById(e.target.id);
     
     if (myEl.getAttribute('data-is-done') == 'N') {
@@ -64,7 +63,7 @@ class listObject
           let el =  document.createElement('li');
           el.setAttribute("id",this.id) ;
           el.innerText=this.whatToBuy;
-          let root =  document.getElementById('cont-list');
+          let root =  document.getElementById('listdiv');
           root.appendChild(el);
           return el
     }
@@ -118,8 +117,9 @@ async function addGroceryListEl (element)
     let bt= btn.createBttn();
     let edit= btn.createPnt();
     console.log(edit)
-    p.appendChild(bt); 
-    p.appendChild(edit);
+    let dvbtn = document.getElementById('buttondiv');
+    dvbtn.appendChild(bt); 
+    dvbtn.appendChild(edit);
 
   
     listArray.push(p); 
